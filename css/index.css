@@ -80,7 +80,7 @@
   color: white;
 }
 .senai {
-  padding-right: 30px;
+  margin-right: 30px;
   margin-bottom: 15px;
 }
 
@@ -96,4 +96,43 @@ a:visited {
 a:hover {
   color: white;
   text-decoration: none;
+}
+
+/* capas */
+.capas{
+  font-family: Bradley Hand, cursive;
+  color: white;
+  padding-right: 50px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 500;
+
+}
+#linguagens{
+  font-size: 35px;
+}
+.box{
+  display: flex;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+
+    justify-content: center;
+    align-items: baseline;
+}
+#ultima{
+  margin-bottom: 20px;
+}
+.titulo_capa{
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+#capas{
+  box-shadow: 2px 7px 10px 5px black;
 }
