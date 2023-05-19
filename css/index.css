@@ -136,3 +136,25 @@ a:hover {
 #capas{
   box-shadow: 2px 7px 10px 5px black;
 }
+
+/* Rotina de estudos */
+
+.tabela{
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 30px;
+  /* text-align: center; */
+  background-color: darkred;
+  width: 900px;
+  margin-left: 250px;
+  padding-left: 50px;
+  margin-right: 90px;
+  /* height: 100%; */
+  
+}
+.topo{
+  padding-right: 50px;
+  padding-left: 30px;
+  text-align: center;
+}
