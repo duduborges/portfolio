@@ -141,20 +141,79 @@ a:hover {
 
 .tabela{
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-  margin-left: 30px;
-  /* text-align: center; */
-  background-color: darkred;
-  width: 900px;
-  margin-left: 250px;
-  padding-left: 50px;
-  margin-right: 90px;
-  /* height: 100%; */
   
+  background-color: rgba(139, 0, 0, 0.212);
+  width: 1250px;
+  margin-left: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  height: 250px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .topo{
-  padding-right: 50px;
-  padding-left: 30px;
+  background-color: darkred;
+  padding-right: 70px;
+  padding-left: 70px;
   text-align: center;
+  border: solid black 1px;
+}
+.horas{
+  background-color: darkred;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 0 ;
+  border-bottom: 0;
+  border-top: 0;
+  
+}
+#horario{
+  background-color: darkred;
+  color: white;
+  font-size: 15px;
+  border: solid black 1px;
+  border-bottom: 0;
+  width: 150px;
+
+}
+.titulo_rotina{
+  font-size: 50px;
+  text-align: center;
+  color: ghostwhite;
+  font-family: fantasy;
+  position: relative;
+}
+.conteudo1{
+  background-color: darkred;
+  border: solid black 1px;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+}
+#conteudo2{
+  background-color: darkred;
+  border: solid black 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px ;
+  padding-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 1px;
+}
+#conteudo3{
+  background-color: darkred ;
+  border: solid black 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px ;
+  padding-bottom: 1px;
+  border-top: 0;
+  border-radius: 1px;
+}
+table:hover{
+  
+  background-image: linear-gradient(to left, grey, aliceblue , red, blue);
+  
+  animation-direction: reverse;
 }
