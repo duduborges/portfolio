@@ -109,9 +109,7 @@ a:hover {
   width: 500;
 
 }
-#linguagens{
-  font-size: 35px;
-}
+
 .box{
   display: flex;
     font-size: 30px;
@@ -135,6 +133,7 @@ a:hover {
 }
 #capas{
   box-shadow: 2px 7px 10px 5px black;
+  margin: auto;
 }
 
 /* Rotina de estudos */
@@ -144,14 +143,13 @@ a:hover {
   
   background-color: rgba(139, 0, 0, 0.212);
   width: 1250px;
-  margin-left: 150px;
   padding-left: 30px;
   padding-right: 30px;
-  margin-right: 90px;
   border: 1px solid rgba(0, 0, 0, 0.247);
   height: 250px;
   padding-bottom: 30px;
   padding-top: 30px;
+  margin: auto;
 }
 .topo{
   background-color: darkred;
