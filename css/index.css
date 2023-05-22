@@ -211,7 +211,99 @@ a:hover {
 }
 table:hover{
   
-  background-image: linear-gradient(to left, grey, aliceblue , red, blue);
+  background-image: linear-gradient(to left, grey, aliceblue , red, rgb(251, 255, 0));
   
   animation-direction: reverse;
+}
+ 
+/* curriculo */
+.body_curriculo{
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2458523-gradiente-vermelho-fundo-gratis-vetor.jpg');
+  height: 100vh;
+  
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+.curriculo{
+  background-color: white;
+  width: 70%;
+  margin-left: 90px;
+  color: black;
+  padding-top: 40px;
+  align-content: center;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.perfil{
+    display: flex;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#foto_curriculo{
+  margin-left: 70px;
+  border-radius: 5px;
+
+}
+#nome_curriculo{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  
+}
+.info_curriculo{
+  margin-left: 50px;
+  
+}
+.formacao{
+  margin-left: 70px;
+  margin-top: 70px;
+
+}
+#titulo_formacao{
+  font-size: 40px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+#info_formacao{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.experiencia_prof{
+  margin-bottom: 60px;
+}
+#titulo_experiencia{
+  font-size: 40px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  margin-top: 60px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.habilidades{
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+#titulo_habilidades{
+  font-size: 40px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+#info_habilidades{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.footer{
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2458523-gradiente-vermelho-fundo-gratis-vetor.jpg');
 }
