@@ -135,6 +135,9 @@ a:hover {
   box-shadow: 2px 7px 10px 5px black;
   margin: auto;
 }
+#capas:hover{
+  scale: 1.2;
+}
 
 /* Rotina de estudos */
 
@@ -209,11 +212,9 @@ a:hover {
   border-top: 0;
   border-radius: 1px;
 }
-table:hover{
+.tabela:hover{
   
-  background-image: linear-gradient(to left, grey, aliceblue , red, rgb(251, 255, 0));
-  
-  animation-direction: reverse;
+  scale: 1.1;
 }
  
 /* curriculo */
@@ -239,7 +240,7 @@ table:hover{
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  
 }
 .perfil{
     display: flex;
@@ -290,7 +291,7 @@ table:hover{
 }
 .habilidades{
   padding-bottom: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
 }
 #titulo_habilidades{
   font-size: 40px;
