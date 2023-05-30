@@ -1,3 +1,6 @@
+@import url(animation.css); 
+
+
 /* principais */
 .body {
   background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2458523-gradiente-vermelho-fundo-gratis-vetor.jpg');
@@ -13,23 +16,15 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 0px;
-  
-  /* animation: titulo 5s infinite; */
+
 }
-/* @keyframes titulo{
-  0% {
-    color: whitesmoke;
-  }
-  25%{
-    color: antiquewhite;
-  }
-  50%{
-    color:;
-  }
-  100%{
-    color: greenyellow;
-  } */
-/* } */
+header{
+  top:0;
+  position: sticky;
+
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2458523-gradiente-vermelho-fundo-gratis-vetor.jpg');
+}
+
 
 .nome {
   margin-top: 0%;
@@ -44,7 +39,34 @@
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 20px;  */
+  
+}
+
+
+#git{
+  margin-top: 40px;
+  animation: icon_rgb_git 5s infinite;
+  border-radius: 60%;
+  animation-direction: alternate-reverse;
+  
+}
+#inst{
+  margin-top: 40px;
+  border-radius: 30px;
+  animation: icon_rgb_inst 5s infinite;
+  animation-direction: alternate-reverse;
+}
+#linkd{
+  margin-top: 40px;
+  animation: icon_rgb_linkd 5s infinite;
+  border-radius: 15px;
+  animation-direction: alternate-reverse;
 }
 #apresentacao1 {
   width: 550px;
@@ -55,7 +77,7 @@
   margin-left: 200px;
   animation: foto_rgb 5s infinite;
   animation-direction: alternate-reverse;
-  margin-right: 150px;
+  margin-right: 0;
 }
 @keyframes foto_rgb{
   0%{
@@ -96,10 +118,11 @@
   margin-bottom: 0;
 }
 
+
 .topnav a {
   float: left;
   color: ghostwhite;
-  text-align: center;
+  /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
