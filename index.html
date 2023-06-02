@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio 2º Trimestre</title>
     <link rel="stylesheet" type="text/css" href="\css\index.css" />
+    <script src="script.js"></script>
     <link rel="icon" href="https://i.pinimg.com/originals/b7/7e/28/b77e2817a29f6499c20e4919f84758ed.png">
   </head>
   <body class="body">
@@ -46,27 +48,28 @@
       
       <img id="minha_foto" src="\img\minha_foto.jpg" height="400" width="300" />
       <div class="icons">
-        <a  href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/">
           <img 
+          onclick="linkd()"
           class="icon"
           id="linkd"
           src="https://cdn-icons-png.flaticon.com/256/61/61109.png" alt="Linkedin"
           height="90"
           width="90"
           >
-        </a>
-        <a href="https://www.instagram.com/borges.ip/">
-          <img         class="icon"
+          <img         
+          class="icon"
+          onclick="insta()"
           id="inst"
           src="https://cdn-icons-png.flaticon.com/256/2190/2190364.png" alt="Instagram"
                   width="90"                  height="90"
           >
           
         </a>
-        <a href="https://github.com/duduborges">
+        <a href="">
           <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Github"
           class="icon"
           id="git"
+          onclick="github()"
   
           height="90"
           width="90"
